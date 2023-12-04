@@ -12,12 +12,12 @@
     "code-runner.ignoreSelection": true,
     "editor.wordWrap": "on",
     "git.autofetch": true,
-    // "github.copilot.enable": {
-    //     "*": false,
-    //     "plaintext": false,
-    //     "markdown": false,
-    //     "scminput": false
-    // },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
     "editor.minimap.enabled": false,
     "editor.inlineSuggest.enabled": true,
     "git.suggestSmartCommit": true,
