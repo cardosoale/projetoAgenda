@@ -65,7 +65,6 @@ def login_view(request):
             auth.login(request, user)
             messages.success(request, 'Logado com sucesso!')
             return redirect('contact:index')
-        messages.error(request, 'Login inválido')
 
     return render(
         request,
